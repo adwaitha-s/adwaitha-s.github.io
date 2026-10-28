@@ -66,3 +66,20 @@ html, body { max-width:100%; overflow-x:clip; }
   .cad-project-images.scooter-images .gallery-item, .cad-project-images.capstone-images .gallery-item { min-height:0; }
   .watering-group .gallery-watering-can { min-height:320px; }
 }
+
+/* ── merged Projects section ── */
+.project-block { scroll-margin-top:92px; }
+.project-desc { margin:0 0 4px !important; max-width:34ch; font-family:var(--sans) !important; font-size:.92rem !important; line-height:1.5; text-transform:none !important; letter-spacing:0 !important; color:var(--ink); }
+.project-block .archive-status { margin-top:16px; }
+.project-block .archive-links { margin-top:16px; margin-bottom:18px; }
+.project-block .cad-project-heading > span:last-child { padding-top:22px; }
+.archive-thumb { display:block; width:150px; height:110px; margin-top:16px; object-fit:contain; background:#fff; border:1px solid var(--line); }
+.extra-gallery { margin-top:96px; border-top:1px solid var(--line); }
+.extra-gallery-grid .gallery-item { max-width:520px; min-height:380px; }
+.extra-gallery-grid .watering-group .gallery-watering-can { min-height:380px; }
+@media (max-width:800px) {
+  .project-desc { max-width:none; }
+  .extra-gallery { margin-top:62px; }
+  .extra-gallery-grid .gallery-item { max-width:none; min-height:300px; }
+  .archive-thumb { width:120px; height:90px; }
+}
