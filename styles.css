@@ -107,3 +107,12 @@ html, body { max-width:100%; overflow-x:clip; }
 .gallery-grid .g-palm { background:linear-gradient(#929db1 0%,#9ca6b8 25%,#99a1b4 75%,#b2b6bd 100%); }
 .gallery-grid .g-palm-detail { background:#9da7ba; }
 .gallery-grid .g-foosball { background:linear-gradient(#7c8699 0%,#8e95a6 22%,#9198aa 78%,#a8abb6 100%); }
+
+/* ── 2026-11: Trydan front wheel mudguard ── */
+.scooter-images { grid-template-rows:200px 200px 200px 200px; }
+.scooter-headlight { grid-row:span 4; }
+@media (max-width:800px) {
+  .scooter-images { grid-template-rows:240px 170px 170px; }
+  .scooter-headlight { grid-row:span 1; }
+  .scooter-frontplate { grid-column:auto; }
+}
